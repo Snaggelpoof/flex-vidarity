@@ -1,0 +1,52 @@
+/*
+    flex CSS
+    by Astallyne at https://vidarity.com
+*/
+.flex{
+	display: flex;
+}
+
+.row{
+	flex-direction: row;
+}
+
+.row-rev{
+	flex-direction: row-reverse;
+}
+
+.wrap{
+    flex-flow: row wrap;
+}
+
+.wrap-rev{
+    flex-flow: row wrap-reverse;
+}
+
+.column{
+	flex-direction: column;
+}
+
+.column-rev{
+	flex-direction: column-reverse;
+}
+
+.between{
+	justify-content: space-between;
+}
+
+.around{
+	justify-content: space-around;
+}
+
+.start{
+	justify-content: flex-start;
+}
+
+.end{
+	justify-content: flex-end;
+}
+
+.center{
+    justify-content: center;
+}
+/* flex end */
